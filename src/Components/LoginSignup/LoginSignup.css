@@ -1,0 +1,144 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    padding-left: 70px;
+    width: 600px;
+    background: #fff;
+    padding-bottom: 30px;
+    
+  
+}
+
+.header{
+   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+.text{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 45px;
+}
+.underline{
+    width: 100px;
+    height: 6px;
+    background: purple;
+    border-radius: 9px;
+    
+}
+
+.inputs{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #efe3ef;
+    border-radius:7px;
+    border-style:ridge;
+    
+}
+.input img{
+    margin: 0px 25px;
+
+}
+
+.input input{
+    height: 40px;
+    width: 375px;
+   background: transparent;
+   outline:none;
+   border: none;
+   color:#322f32;
+   font:bold;
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 25px;
+   font-display:initial;
+
+    
+}
+
+.forgot-password{
+    padding-left: 65px;
+    margin-top: 28px;
+    color:black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.forgot-password span{
+    color: #850F88;
+    cursor:pointer;
+}
+.submit-container{
+    display: flex;
+    gap:30px;
+    margin: 60px auto;
+    
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 69px;
+    color: #fff;
+    background: #850F88;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 750;
+    cursor: pointer;
+    transition: background .5s, color .5s;
+    
+    
+}
+.submit:hover{
+    background: #af4fb0;
+    box-shadow: 0 0 40px #af4fb0;
+    color: #49184a;
+    transition: background 1s, color 3s;
+    filter: hue-rotate(25deg);
+    animation: mymove 5s infinite;
+
+}
+
+.gray{
+    background: #EAEAEA;
+    color: #676767;
+}
+.language-dropdown {
+    width: 480px;
+    height: 50px;
+    margin: auto;
+    background: #efe3ef;
+    border-radius: 7px;
+    border: none;
+    padding: 0 25px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: #322f32;
+    outline: none;
+    cursor: pointer;
+}
