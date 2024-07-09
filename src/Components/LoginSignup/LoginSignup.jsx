@@ -32,19 +32,19 @@ export const LoginSignup = () => {
 
             <div className="input">
                 <select className="language-dropdown">
-                    <option value="en">English</option>
-                    <option value="es">Spanish</option>
-                    <option value="fr">French</option>
-                    <option value="de">German</option>
+                    <option value="en">English [EN]</option>
+                    <option value="es">Español [ES]</option>
+                    <option value="fr">Français [FR]</option>
+                    <option value="de">Deutsch [DE]</option>
                 </select>
             </div>
         </div>
 
-        {action==="Leidos Sign Up" ? <div></div> : <div className="forgot-password">Forgot Password? <span>Click Here!</span></div>}
+       
     
         <div className="submit-container">
             <div className={action==="Login" ? "submit gray" : "submit"} onClick={() => {actionSet("Login")}}>Login</div>
-            <div className={action==="Leidos Sign Up" ? "submit gray" : "submit"} onClick={() => {actionSet("Leidos Sign Up")}}>Sign Up</div>
+          
         </div>
     </div>
   )
